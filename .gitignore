@@ -3,6 +3,9 @@
 # impeccable dev tooling
 /.impeccable/
 
+# stray nested path
+/$$ Code/
+
 # dependencies
 /node_modules
 /.pnp
