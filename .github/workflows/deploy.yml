@@ -26,6 +26,8 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: cp -r public/. out/
+      - name: Fix image paths for basePath
+        run: find out -type f \( -name "*.html" -o -name "*.txt" \) -exec sed -i 's|/images/|/arenaclash/images/|g' {} +
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
