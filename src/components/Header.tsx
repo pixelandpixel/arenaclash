@@ -15,7 +15,7 @@ export function Header() {
       <div className="container-arena flex items-center justify-between" style={{ height: 72 }}>
         <Link href="/" className="flex items-center gap-3 no-underline">
           <Image
-            src="/images/ArenaClash_logo_big.png"
+            src="{`${process.env.NEXT_PUBLIC_BASE_PATH}/images/ArenaClash_logo_big.png`}"
             alt="Arena Clash"
             width={160}
             height={48}
