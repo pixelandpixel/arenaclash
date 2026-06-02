@@ -73,7 +73,7 @@ export function FloatingBall() {
         }}
       >
         <Image
-          src="/images/Cricket ball.png"
+          src="https://raw.githubusercontent.com/pixelandpixel/arenaclash/refs/heads/main/public/images/Cricket-ball.png"
           alt=""
           fill
           className="object-contain"
