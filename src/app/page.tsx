@@ -26,7 +26,7 @@ function HeroSection() {
       }}
     >
       <div className="absolute inset-0 pointer-events-none">
-        <Image src="/images/stadium-hero.jpeg" alt="" fill className="object-cover opacity-30" priority sizes="100vw" />
+        <Image src="https://raw.githubusercontent.com/pixelandpixel/arenaclash/refs/heads/main/public/images/stadium-hero.jpeg" alt="" fill className="object-cover opacity-30" priority sizes="100vw" />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, oklch(8% 0.005 30) 0%, oklch(8% 0.005 30 / 0.65) 25%, transparent 45%, oklch(8% 0.005 30 / 0.75) 75%, oklch(8% 0.005 30) 100%), radial-gradient(ellipse 60% 50% at 15% 50%, oklch(52% 0.22 25 / 0.25) 0%, transparent 65%), radial-gradient(ellipse 60% 40% at 85% 50%, oklch(48% 0.14 250 / 0.15) 0%, transparent 65%)" }} />
       </div>
 
